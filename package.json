@@ -1,0 +1,22 @@
+{
+  "name": "storeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedigipane/storeserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedigipane/storeserver/issues"
+  },
+  "homepage": "https://github.com/thedigipane/storeserver#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
