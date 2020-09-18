@@ -6,9 +6,9 @@
 const server = require('./lib/server/expressServer');
 
 (function() {
-  log.debug("initialized, starting server...");
+  console.log("initialized, starting server...");
   server.start();
-  log.debug("service is up and running.");
+  console.log("service is up and running.");
 })();
 
 process.on('SIGINT', function() {
